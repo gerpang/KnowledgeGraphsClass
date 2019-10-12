@@ -1,0 +1,9 @@
+## sparql query on jena 
+prefix cities:<http://example.org/city/>
+prefix pred1:<http://example.org/pred1/>
+
+SELECT ?subject ?predicate ?object
+WHERE {
+  ?subject pred1:Country "Afghanistan"
+}
+LIMIT 25
