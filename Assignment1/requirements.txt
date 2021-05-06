@@ -52,7 +52,7 @@ fastcache==1.0.2
 fastparquet==0.3.2
 filelock==3.0.4
 Flask==1.0.2
-Flask-Cors==3.0.4
+Flask-Cors==3.0.9
 funcy==1.11
 future==0.17.1
 gast==0.2.2
